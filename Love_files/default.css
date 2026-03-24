@@ -26,8 +26,8 @@ a {
 }
 
 #text {
-	width: 400px;
-	height: 425px;
+	width: 800px;
+	height: auto;
 	left: 60px;
 	top: 80px;
 	position: absolute;
