@@ -85,9 +85,23 @@ Contáctame:
     <script src="script.js"></script>
 </body>
 
+
+<div onclick="iniciar()"
+style="cursor:pointer;">
+    ❤️ Toca aqui ❤️
+</div>
+
 <audio id="musica">
     <source src="cancion.mp3" type="audio/mpeg">
 </audio>
+
+<script>
+function iniciar()  {
+    const audio =
+    document.getElementById("musica");
+    audio.play();
+    }
+</script>
 
  <!-- 
 
